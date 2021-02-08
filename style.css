@@ -226,7 +226,6 @@ main .site-content {
 
 main .post-content {
     width: 100%;
-    margin-bottom: 5rem;
 }
 
 .text-gray {
@@ -277,4 +276,88 @@ main .site-content .post-content .post-title .btn {
 
 main .site-content .post-content .post-title p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-content .pagination {
+    justify-content: center;
+    color: grey;
+    margin: 4rem 0;
+}
+
+.site-content .pagination a {
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    margin: .3rem;
+    font-family: "abel";
+    color: black;
+}
+
+.site-content .pagination .pages {
+    background: grey;
+    color: white;
+}
+
+.site-content>.sidebar .category-list .list-items {
+    font-family: "abel";
+    background-color: skyblue;
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "abel !important";
+}
+
+.site-content>.sidebar .category-list .list-items a {
+    color: black;
+}
+
+.site-content .sidebar .popular-post h2 {
+    padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info {
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 2rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
+
+.site-content .sidebar .popular-post .post-title a {
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter {
+    padding-top: 26rem;
+}
+
+.site-content .sidebar .newsletter .form-element {
+    padding: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element {
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter .form-btn {
+    border-radius: 0;
+    padding: .5rem 23.5%;
+    margin: 1rem 0;
+    background-color: skyblue;
+}
+
+.site-content .sidebar .popular-tags {
+    padding: 5rem 0;
+}
+
+.site-content .sidebar .popular-tags .tags .tag {
+    padding: .4rem 1rem;
+    background-color: skyblue;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
 }
